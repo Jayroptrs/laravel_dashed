@@ -1,3 +1,13 @@
+## Installatie instructies:
+1. Clone de repository.
+2. Voer `composer install` en `npm install` uit.
+3. Kopieer `.env.example` naar `.env` en stel je lokale database in.
+4. Voer `php artisan key:generate` uit.
+5. Voer `php artisan migrate` uit om de database-tabellen aan te maken.
+6. Voer `php artisan storage:link` uit om de afbeeldingen zichtbaar te maken.
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
